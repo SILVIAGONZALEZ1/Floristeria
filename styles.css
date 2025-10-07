@@ -18,7 +18,7 @@ header {
   display: flex;
     position: relative;
     left: -590px;
-    top: 30px;
+    top: 0;
 }
 .titulo{
     position: relative;
@@ -132,107 +132,3 @@ header {
 /* Tipografía Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
 
-.icono{
-    position: relative;
-    left: -590px;
-    top: -30px;
-}
-.titulo{
-    position: relative;
-    left: 80px;
-    top: -40px; 
-}
-.segundo{
-    position: relative;
-    top: -50px;
-    left: 53px;
-    font-size: 12px;
-}
-.btn-contactar {
-  position: relative;
-  left: 500px;
-  top: -140px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  color: white;
-  background: linear-gradient(90deg, #f64f73, #e4265e);
-  transition: opacity 0.2s ease-in-out;
-}
-
-.btn-contactar:hover {
-  opacity: 0.9;
-}
-
-.btn-contactar svg {
-  flex-shrink: 0;
-}
-
-/* Sección Nuestros Productos */
-.productos-section {
-  background: #ffeaf3;
-}
-.productos-title {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 800;
-  color: #181828;
-  font-size: 2.7rem;
-}
-.productos-desc {
-  color: #5b5b6b;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 1.1rem;
-}
-.producto-card {
-  border-radius: 18px;
-  border: none;
-  background: #fff;
-  transition: box-shadow 0.2s;
-}
-.producto-card:hover {
-  box-shadow: 0 8px 32px 0 rgba(255, 0, 102, 0.1);
-}
-.producto-img-wrapper {
-  border-radius: 18px 18px 0 0;
-  overflow: hidden;
-}
-.producto-img {
-  object-fit: cover;
-  height: 180px;
-  width: 100%;
-}
-.icono-producto img {
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 2px 8px 0 rgba(255, 0, 102, 0.1);
-  padding: 4px;
-}
-.btn-producto {
-  background: #ff4b8b;
-  color: #fff;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 600;
-  border-radius: 10px;
-  border: none;
-  padding: 0.7rem 0;
-  font-size: 1rem;
-  transition: background 0.2s;
-}
-.btn-producto:hover {
-  background: #e13c7a;
-  color: #fff;
-}
-.btn-grad {
-  background: linear-gradient(90deg, #3b82f6 0%, #a259ff 100%);
-}
-.btn-orange {
-  background: linear-gradient(90deg, #ff9900 0%, #ff6a00 100%);
-}
-/* Tipografía Montserrat */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
