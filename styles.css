@@ -3,16 +3,22 @@ header {
   justify-content: space-around;
   text-align: center;
   align-content: center;
+  
+}
+.navegacion{
+  display: inline-flex  ;
 }
 .navegacion  a{
   color: black;
   margin: 15px;
     text-decoration:  none;
+    padding: 0;
 }
 .icono{
+  display: flex;
     position: relative;
     left: -590px;
-    top: -30px;
+    top: 30px;
 }
 .titulo{
     position: relative;
@@ -49,6 +55,18 @@ header {
 
 .btn-contactar svg {
   flex-shrink: 0;
+}
+.fondo {
+  background-image: url("img/fotoslummi/ChatGPT\ Image\ 7\ oct\ 2025\,\ 11_40_22.png"); /* ruta de tu imagen */
+  background-size: cover;       /* ajusta la imagen al contenedor */
+  background-position: center;  /* centra la imagen */
+  height: 100vh;                /* ocupa toda la pantalla */
+  display: flex;                /* centra el contenido */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;                 /* color del texto */
+  text-align: center;
 }
 
 /* Sección Nuestros Productos */
