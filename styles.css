@@ -8,6 +8,47 @@ header {
   color: black;
   margin: 15px;
 }
+.icono{
+    position: relative;
+    left: -590px;
+    top: -30px;
+}
+.titulo{
+    position: relative;
+    left: 80px;
+    top: -40px; 
+}
+.segundo{
+    position: relative;
+    top: -50px;
+    left: 53px;
+    font-size: 12px;
+}
+.btn-contactar {
+  position: relative;
+  left: 500px;
+  top: -140px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(90deg, #f64f73, #e4265e);
+  transition: opacity 0.2s ease-in-out;
+}
+
+.btn-contactar:hover {
+  opacity: 0.9;
+}
+
+.btn-contactar svg {
+  flex-shrink: 0;
+}
 
 /* Sección Nuestros Productos */
 .productos-section {
