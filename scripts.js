@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
       var product = btn.getAttribute("data-product") || "producto";
       alert(
         "Has pedido: " +
-          product +
-          "\nPronto nos pondremos en contacto para confirmar."
+        product +
+        "\nPronto nos pondremos en contacto para confirmar."
       );
     });
   });
