@@ -1,3 +1,50 @@
+:root{
+	--pink:#ff2f7a;
+	--pink-600:#ff4f9c;
+	--muted:#9aa3ab;
+}
+
+body{
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	background: #fafafa;
+	color: #222;
+}
+
+.productos-destacados .section-title{
+	font-size: 30px;
+	font-weight: 700;
+	color: #163a45;
+}
+.productos-destacados .section-subtitle{
+	color: #6b7a7f;
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.product-card{ border-radius:12px; overflow:hidden; }
+.product-img{ height:200px; object-fit:cover; display:block; width:100%; }
+.badge-pink{ position:absolute; left:12px; top:12px; background:var(--pink); color:#fff; padding:6px 10px; font-weight:700; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+
+.product-card .card-body{ background:#fff; }
+.card-title{ font-size:16px; font-weight:700; color:#163a45; }
+.rating .star{ color:#ffbf00; margin-right:2px; }
+.rating .star.muted{ color:#ddd; }
+.price{ color:var(--pink); font-weight:700; font-size:18px; }
+
+.btn-pink{ background:var(--pink); color:#fff; border:none; }
+.btn-pink:hover{ background:var(--pink-600); }
+.btn-outline-pink{ border:2px solid var(--pink); color:var(--pink); background:transparent; padding:10px 22px; border-radius:40px; }
+
+/* small responsive tweaks */
+@media (max-width:767px){
+	.product-img{ height:180px; }
+	.productos-destacados .section-title{ font-size:24px; }
+}
+
+/* shadow similar to the design */
+.shadow-sm{ box-shadow: 0 6px 18px rgba(8,34,40,0.06); border-radius:12px; }
+
+.pedir-btn{ border-radius:24px; }
 header {
   display: flex;
   justify-content: space-around;
