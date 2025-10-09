@@ -45,3 +45,138 @@ body{
 .shadow-sm{ box-shadow: 0 6px 18px rgba(8,34,40,0.06); border-radius:12px; }
 
 .pedir-btn{ border-radius:24px; }
+header {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-content: center;
+  
+}
+.navegacion{
+  display: inline-flex  ;
+}
+.navegacion  a{
+  color: black;
+  margin: 15px;
+    text-decoration:  none;
+    padding: 0;
+}
+.icono{
+  display: flex;
+    position: relative;
+    left: -590px;
+    top: 0;
+}
+.titulo{
+    position: relative;
+    left: -580px;
+     
+}
+.segundo{
+    position: relative;
+    top: 20px;
+    left: -680px;
+    font-size: 12px;
+}
+.btn-contactar {
+  position: relative;
+  left: 100px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px; /* 🔹 más chico */
+  border: none;
+  border-radius: 20px; /* 🔹 menos alto, se ajusta al nuevo tamaño */
+  cursor: pointer;
+  font-size: 12px; /* 🔹 texto más pequeño */
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(90deg, #f64f73, #e4265e);
+  transition: opacity 0.2s ease-in-out;
+}
+
+.btn-contactar svg {
+  width: 12px;  /* 🔹 ícono más chico */
+  height: 12px;
+}
+
+.btn-contactar:hover {
+  opacity: 0.9;
+}
+
+.fondo {
+  background-image: url("img/fotoslummi/ChatGPT\ Image\ 7\ oct\ 2025\,\ 11_40_22.png"); /* ruta de tu imagen */
+  background-size: cover;       /* ajusta la imagen al contenedor */
+  background-position: center;  /* centra la imagen */
+  height: 100vh;                /* ocupa toda la pantalla */
+  display: flex;                /* centra el contenido */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;                 /* color del texto */
+  text-align: center;
+}
+
+/* Sección Nuestros Productos */
+.productos-section {
+  background: #ffeaf3;
+}
+.productos-title {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 800;
+  color: #181828;
+  font-size: 2.7rem;
+}
+.productos-desc {
+  color: #5b5b6b;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1.1rem;
+}
+.producto-card {
+  border-radius: 18px;
+  border: none;
+  background: #fff;
+  transition: box-shadow 0.2s;
+}
+.producto-card:hover {
+  box-shadow: 0 8px 32px 0 rgba(255, 0, 102, 0.1);
+}
+.producto-img-wrapper {
+  border-radius: 18px 18px 0 0;
+  overflow: hidden;
+}
+.producto-img {
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+}
+.icono-producto img {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px 0 rgba(255, 0, 102, 0.1);
+  padding: 4px;
+}
+.btn-producto {
+  background: #ff4b8b;
+  color: #fff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 0.7rem 0;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.btn-producto:hover {
+  background: #e13c7a;
+  color: #fff;
+}
+.btn-grad {
+  background: linear-gradient(90deg, #3b82f6 0%, #a259ff 100%);
+}
+.btn-orange {
+  background: linear-gradient(90deg, #ff9900 0%, #ff6a00 100%);
+}
+/* Tipografía Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
