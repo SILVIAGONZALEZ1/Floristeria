@@ -1,16 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function(){
   document.querySelectorAll('.pedir-btn').forEach(function(btn){
     btn.addEventListener('click', function(){
@@ -26,4 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("¡Próximamente más detalles de este producto!");
     });
   });
+});
+    });
+  });
+  document.querySelectorAll('.btn-producto').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      alert('¡Próximamente más detalles de este producto!');
+    });
+  });   
 });
