@@ -22,40 +22,41 @@ header {
 }
 .titulo{
     position: relative;
-    left: 80px;
-    top: -40px; 
+    left: -580px;
+     
 }
 .segundo{
     position: relative;
-    top: -50px;
-    left: 53px;
+    top: 20px;
+    left: -680px;
     font-size: 12px;
 }
 .btn-contactar {
   position: relative;
-  left: 500px;
-  top: -140px;
+  left: 100px;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
+  gap: 6px;
+  padding: 6px 14px; /* 🔹 más chico */
   border: none;
-  border-radius: 25px;
+  border-radius: 20px; /* 🔹 menos alto, se ajusta al nuevo tamaño */
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px; /* 🔹 texto más pequeño */
   font-weight: 500;
   color: white;
   background: linear-gradient(90deg, #f64f73, #e4265e);
   transition: opacity 0.2s ease-in-out;
 }
 
+.btn-contactar svg {
+  width: 12px;  /* 🔹 ícono más chico */
+  height: 12px;
+}
+
 .btn-contactar:hover {
   opacity: 0.9;
 }
 
-.btn-contactar svg {
-  flex-shrink: 0;
-}
 .fondo {
   background-image: url("img/fotoslummi/ChatGPT\ Image\ 7\ oct\ 2025\,\ 11_40_22.png"); /* ruta de tu imagen */
   background-size: cover;       /* ajusta la imagen al contenedor */
